@@ -1,4 +1,3 @@
-# Form-Validation-Using-JavaScript
 # 🛡️ Form Validation Using JavaScript
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
