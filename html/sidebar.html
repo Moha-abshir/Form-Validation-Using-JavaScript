@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/styles/sidebar.css">
+</head>
+<body>
+  <header>
+    <nav>
+
+      <div class="main-header">
+        <button class="js-Dashboard-toggle">
+          <img class="hambuger" src="/icons/hambuger.png" alt="menu">
+        </button>
+
+        <ul>
+          <li>
+            <a href="#">Academics ▾</a>
+            <div class="drop-down">
+              <ul>
+                <li><a href="">Registration</a></li>
+                <li><a href="">Course Evaluation</a></li>
+                <li><a href="">Clearance</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Finance ▾</a>
+            <div class="drop-down">
+              <ul>
+                <li><a href="">Registration </a></li>
+                <li><a href="">Course Evaluation</a></li>
+                <li><a href="">Clearance</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a href="#">Accomodation ▾</a>
+            <div class="drop-down">
+              <ul>
+                <li><a href="">Registration</a></li>
+                <li><a href="">Course Evaluation</a></li>
+                <li><a href="">Clearance</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  </header>
+  <main>
+    <div class="Dashboard">
+      <div>
+        <p class="header">Dashboard</p>
+        <p>Personal Profile</p>
+      </div>
+
+      <div>
+        <p class="header">Academics</p>
+        <p>Registration</p>
+        <p>Course Evaluation</p>
+        <p>Clearance Request</p>
+      </div>
+
+      <div>
+        <p class="header">Financial</p>
+        <p>Fee Structure</p>
+        <p>Fee Statement</p>
+        <p>Receipts</p>
+      </div>
+
+      <div>
+        <p class="header">Accomdation</p>
+        <p>Hostel Booking</p>
+      </div>
+
+      <div>
+        <p class="header">Examination</p>
+        <p>Exam Card</p>
+        <p>Transcript</p>
+      </div>
+      
+      <div>
+        <p class="header">Setting</p>
+        <p>Change Password</p>
+      </div>
+      
+    </div>
+
+    <div class="container">
+        <div class="tag_sec">
+                <button class="tag_btn">Home</button>
+                <button class="tag_btn">About</button>
+                <button class="tag_btn">Blog</button>
+                <button class="tag_btn">Contact us</button>
+        </div>
+        <div class="main-content">
+            <div class="sub-content">
+                    <h2>Home</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos, nostrum praesentium repellat incidunt iste, culpa placeat sequi porro voluptatibus ipsam. Odit velit iusto maiores reiciendis deleniti! Reprehenderit, distinctio doloribus!</p>
+            </div>
+
+                    <div class="sub-content">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos, nostrum praesentium repellat incidunt iste, culpa placeat sequi porro voluptatibus ipsam. Odit velit iusto maiores reiciendis deleniti! Reprehenderit, distinctio doloribus!</p>
+            </div>
+
+                    <div class="sub-content">
+                    <h2>Blog</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos, nostrum praesentium repellat incidunt iste, culpa placeat sequi porro voluptatibus ipsam. Odit velit iusto maiores reiciendis deleniti! Reprehenderit, distinctio doloribus!</p>
+            </div>
+
+                    <div class="sub-content">
+                    <h2>Contact Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos, nostrum praesentium repellat incidunt iste, culpa placeat sequi porro voluptatibus ipsam. Odit velit iusto maiores reiciendis deleniti! Reprehenderit, distinctio doloribus!</p>
+            </div>
+        </div>
+  </div>
+  <form action="https://formspree.io/f/xldwklbb" method="post" accept-charset="UTF-8">
+	<div class="form-header form-section">
+		<h2>
+			Registration Form
+		</h2>
+	</div>
+		<div class="form-section">
+			<div>
+				<label for="userName" style=" display: block;">First Name</label>
+				<input type="text" id="userName" required autocomplete="off" name="UserName>
+				<p class="errorMessage"></p>
+			</div>
+
+			<div>
+				<label for="dob" style="display: block;">Year Of Birth</label>
+				<input type="number" id="dob" name="date-of-birth" required autocomplete="off" >
+				<p class="errorMessage"></p>
+			</div>
+
+		</div>
+
+		<div class="form-section">
+			<div>
+				<label for="address" style="display: block;">Address</label>
+				<input type="text" id="address" name="address" required autocomplete="off">
+				<p class="errorMessage"></p>
+			</div>
+
+			<div>
+				<label for="phoneNumber" style="display: block;">Contact Number</label>
+				<input type="tel" name="phoneNumber" id="phoneNumber" required autocomplete="off">
+				<p class="errorMessage"></p>
+			</div>
+		</div>
+
+		<div class="form-section">
+			<div>
+				<label for="email" style="display: block;">Email</label>
+				<input type="email" id="email" name="email" required autocomplete="off">
+				<p class="errorMessage"></p>
+			</div>
+
+			<div>
+				<label for="Occupation" style="display: block;">Occupation</label>
+				<input type="text" id="occupation" name="job" required autocomplete="off">
+				<p class="errorMessage"></p>
+			</div>
+		</div>
+
+		<div class="form-section">
+			<input type="submit" class="submitBtn">
+		</div>
+  </form>
+
+  </main>
+  <script src="/scripts/sidebar.js"></script>
+</body>
+</html>
